@@ -12,7 +12,7 @@
 Download a copy of the installer [here](pub.vcacanada.com/security_software/crowdstrike/WindowsSensor_6.23.13702.exe). Once downloaded, run the following command:
 
 ````powershell
-<installer_filename> /install /quiet /norestart CID=289A4403E72C41AFAC93DB969D041FD7-AD
+WindowsSensor_6.23.13702.exe /install /quiet /norestart CID=289A4403E72C41AFAC93DB969D041FD7-AD
 ````
 
 You do not need to restart any machines for this to take effect. 
