@@ -1,9 +1,5 @@
 @import "{{ site.theme }}";
 
-#header_wrap {
-    display: none !important;
-}
-
-#footer_wrap {
-    display: none !important;
+header {
+    display: none;
 }
