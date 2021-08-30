@@ -9,6 +9,8 @@
 
 ### Crowdstrike
 
+#### Windows
+
 Download a copy of the installer [here](https://pub.vcacanada.com/security_software/crowdstrike/WindowsSensor_6.23.13702.exe). Once downloaded, run the following command:
 
 ````powershell
@@ -21,6 +23,19 @@ Verify installation:
 
 1. In a command prompt window run `sc query csfalconservice`
 2. Verify `STATE = "Running"`
+
+#### Mac
+
+Download a copy of the installer [here](https://pub.vcacanada.com/security_software/crowdstrike/FalconSensorMacOS_6.23.13601.pkg). Once downloaded, double click on the `.pkg` installer.
+
+````zsh
+sudo /Applications/Falcon.app/Contents/Resources/falconctl grouping-tags set "VCA,VCA_Canada"
+
+
+sudo /Applications/Falcon.app/Contents/Resources/falconctl license us:e5f592cd-bf99-454e-81a7-8f270446bd24
+````
+
+
 
 ### Rapid7 Agent
 
