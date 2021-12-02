@@ -31,4 +31,4 @@ After 15-20 seconds the Smartsheet is saved, our DHCP server is automatically up
 
 ### T540 note
 
-We have not tested these steps against a T540, but we expect them to work the same on the newer models.
+For T540's, we support using UEFI, so you do NOT need to enable legacy support, but secure boot does need to be disabled. The boot order also needs to favor UEFI over legacy options. 
