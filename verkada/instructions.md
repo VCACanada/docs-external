@@ -9,9 +9,13 @@
 3. Select `Edit Details`
    1. Give the iPad a name matching the format of `H80xxx - Verkada [1,2,3...]` ; number it sequentially if there are mutliple Verkada iPads, ensure the hosiptal AU number is filled in
    2. Remove the default `meraki-production` tag
-   3. Add the `veraka-canada` tag
+   3. Add the `Veraka-Canada` tag
    4. Ensure the `Owner` is set to `vcamobiletablet` (It should be by default)
    5. Click `Save`
+
+### Verkada Command
+
+If the iPad is being setup for use as an administration device of a Verkada network, include the `Verkada Command` app by adding the `Verkada-Command-Canada` tag in addition to the tags previously
 
 ## Configure the iPad on Device
 
