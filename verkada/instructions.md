@@ -7,7 +7,7 @@
 1. Sign into the Meraki dashboard and switch to the `VCA - MDM` network
 2. Locate the device by navigating to `System Manager > Devices` and searching for it by serial number
 3. Select `Edit details`
-   1. Give the iPad a name matching the format of `H80xxx - Verkada [1,2,3...]` ; number it sequentially if there are mutliple Verkada iPads, ensure the hosiptal AU number is filled in
+   1. Give the iPad a name matching the format of `H80xxx - Verkada [1,2,3...]` ; number it sequentially if there are mutliple Verkada iPads, ensure the hospital AU number is filled in
    2. Remove the default `meraki-production` tag
    3. Add the `Veraka-Canada` tag
    4. Ensure the `Owner` is set to `vcamobiletablet` (It should be by default)
