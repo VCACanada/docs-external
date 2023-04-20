@@ -13,6 +13,8 @@
    4. Ensure the `Owner` is set to `vcamobiletablet` (It should be by default)
    5. Click `Save`
 
+![meraki_mdm_ipad_example](images/ipad_1.png)
+
 ### Verkada Command
 
 - If the iPad is being setup for use as an administration device for the Verkada network, include the `Verkada Command` app by adding the `Verkada-Command-Canada` tag in addition to the tags previously (this is not normally needed)
