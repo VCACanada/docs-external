@@ -10,7 +10,7 @@
    1. Give the iPad a name matching the format of `H80xxx - Verkada [1,2,3...]` ; number it sequentially if there are mutliple Verkada iPads, ensure the hospital AU number is filled in
    2. Remove the default `meraki-production` tag
    3. Add the `Veraka-Canada` tag
-   4. Ensure the `Owner` is set to `vcamobiletablet` (It should be by default)
+   4. Ensure the `Owner` is set to `au4001` (it shoud be by default)
    5. Click `Save`
 
 ![meraki_mdm_ipad_example](images/ipad_1.png)
