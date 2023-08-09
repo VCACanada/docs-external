@@ -1,7 +1,5 @@
 # Starlink Installation/Setup
 
----
-
 ## Hardware Install - Exterior
 
 The Starlink dish is designed to be mounted outdoors in an area with a clear view of the sky, and no obstructions nearby. The Starlink stand has bolt holes to accommodate securely attaching it to a surface, we will use those in the following base setup.
@@ -29,7 +27,7 @@ A hole through the roof or side of the structure will be required to get the sig
 
 ![Cable Waterproofing](images/image0000021.jpg)
 
-**IMPORTANT** Approval from the property landlord must be received prior to creating any punctures/holes through the structure. Consult with the hospital manager on how to contact the landlord and request that approval.
+**IMPORTANT:** Approval from the property landlord **must** be received prior to creating any punctures/holes through the structure. Consult with the hospital manager on how to contact the landlord and request that approval.
 
 ### Pitched Roof
 
@@ -69,4 +67,4 @@ Note: on the MX84 models, these ports are labelled as ports 1 & 2. The MX85 mode
 
 ## Contacting VCAC IT
 
-If you have questions about the installation process, please contact VCAC IT via email: admins.canada@vca.com. If you are onsite and need immediate support, please contact your supervisior or speak with the hospital manager onsite to get in contact with VCAC IT via telephone. For privacy, the direct phone number is not published and should not be provided to clinic staff.
+If you have questions about the installation process, please contact VCAC IT using the contact information included with the Starlink kit. If you are onsite and need immediate support, please contact your supervisior or speak with the hospital manager onsite to get in contact with VCAC IT via telephone. For privacy, the direct phone number is not published and should not be provided to clinic staff.
