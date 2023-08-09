@@ -61,7 +61,7 @@ The dish will likely come pre-configured so this step may not be required. A not
 1. Once the dish and Starlink router have been powered on, connect an Ethernet cable from the Starlink router into either **Internet 1** or **Internet 2** on the Cisco MX84/85.
 2. Contact VCAC IT for final configuration.
 
-Note: on the MX84 models, these ports are labelled as ports 1 & 2. The MX85 models label these connections as ports 3 & 4.
+Note: On the MX84 models, these ports are labelled as ports 1 & 2. On the MX85 models label these connections as ports 3 & 4.
 
 ---
 
