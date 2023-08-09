@@ -29,6 +29,8 @@ A hole through the roof or side of the structure will be required to get the sig
 
 **IMPORTANT:** Approval from the property landlord **must** be received prior to creating any punctures/holes through the structure. Consult with the hospital manager on how to contact the landlord and request that approval.
 
+Often times, the landlord may require their vendor to drill the hole and you will seal it.
+
 ### Pitched Roof
 
 For installation on a sloped roof, an adapter can be purchased to accommodate a sloped roof. Contact VCAC IT for assistance.
