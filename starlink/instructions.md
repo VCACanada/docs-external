@@ -4,6 +4,20 @@
 
 The Starlink dish is designed to be mounted outdoors in an area with a clear view of the sky, and no obstructions nearby. The Starlink stand has bolt holes to accommodate securely attaching it to a surface, we will use those in the following base setup.
 
+Here are the four installation types. We typically try the exterior wall and then a roof installation if the wall cannot work. 
+
+### Exterior Wall
+
+For exterior wall installations (brick, stucco, siding), the following method may be used:
+
+We fasten the Starlink long-arm mount to the wall and make one puncture point to feed the Starlink cable. Photo for reference:
+
+![long-arm-install](images/long-arm-install.jpeg)
+
+We use a masonary kit (or landlord may provide one) to seal the cable insertion point along the wall. We aim to keep the installation as minimal as possible. Photo for reference:
+
+![cable-install](images/cable-install.jpg)
+
 ### Flat Roof
 
 For installations on a flat (gravel or asphalt) roof, the following method may be used.
