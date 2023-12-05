@@ -1,4 +1,4 @@
-# VCA Canada Intune Setup & Configuration
+# VCA Canada Intune/AutoPilot Setup
 
 ## Preamble
 
@@ -16,7 +16,7 @@ This enrollment configuration is utilized when a laptop is ordered for a specifi
 
 **IMPORTANT:** This configuration is not yet complete, please ship all laptops/computers being used for x-ray/diagnostic setups to the VCA Canada Support Office for final provisioning.
 
-(NOT YET IN PLACE): The enrollment configuration is used for laptops being setup with diagnostic software (i.e. an x-ray suite), it will use the group tag called *VCAC-DIAG*
+**(NOT YET IN PLACE)**: The enrollment configuration is used for laptops being setup with diagnostic software (i.e. an x-ray suite), it will use the group tag called *VCAC-DIAG*
 
 **Future Group Tag:** *VCAC-DIAG*
 
