@@ -8,4 +8,4 @@
 * [Starlink Dish setup](starlink/instructions.md)
 * [Cabling Standards](cabling/standards.md)
 * [Intune Device Setup](intune/setup.md)
-* [Meraki MDM](merakiMDM/setup.md)
+* [Meraki MDM](MerakiMDM/setup.md)
