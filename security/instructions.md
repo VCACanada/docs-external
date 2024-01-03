@@ -21,7 +21,7 @@ You do not need to restart any machines for this to take effect.
 
 Verify installation:
 
-1. In a command prompt window run `sc query csfalconservice`
+1. In a command prompt window run `sc.exe query csfalconservice`
 2. Verify `STATE = "Running"`
 
 #### Mac
@@ -49,7 +49,7 @@ msiexec /i agentInstaller-x86_64.msi /l*v insight_agent_install_log.log /quiet C
 You can verify the installation by running the following command inside a command prompt window:
 
 ````cmd
-sc query ir_agent
+sc.exe query ir_agent
 ````
 
 Linux:
