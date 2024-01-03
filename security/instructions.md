@@ -11,10 +11,10 @@
 
 #### Windows
 
-Download a copy of the installer [here](https://pub.vcacanada.com/security_software/crowdstrike/WindowsSensor_6.40.15406.exe). Once downloaded, run the following command:
+Download a copy of the installer [here](https://s3.ca-central-1.amazonaws.com/pub.vcacanada.com/security_software/crowdstrike/WindowsSensor_7.04.17605.exe). Once downloaded, run the following command:
 
 ````powershell
-WindowsSensor_6.40.15406.exe /install /quiet /norestart CID=289A4403E72C41AFAC93DB969D041FD7-AD
+WindowsSensor_7.04.17605.exe /install /quiet /norestart CID=289A4403E72C41AFAC93DB969D041FD7-AD PROXYDISABLE=1 ProvNoWait=1
 ````
 
 You do not need to restart any machines for this to take effect. 
