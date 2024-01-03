@@ -17,7 +17,7 @@ Download a copy of the installer [here](https://s3.ca-central-1.amazonaws.com/pu
 WindowsSensor_7.04.17605.exe /install /quiet /norestart CID=289A4403E72C41AFAC93DB969D041FD7-AD PROXYDISABLE=1 ProvNoWait=1
 ````
 
-You do not need to restart any machines for this to take effect. 
+You do not need to restart any machines for this to take effect.
 
 Verify installation:
 
@@ -35,8 +35,6 @@ sudo /Applications/Falcon.app/Contents/Resources/falconctl grouping-tags set "VC
 sudo /Applications/Falcon.app/Contents/Resources/falconctl license us:e5f592cd-bf99-454e-81a7-8f270446bd24
 ````
 
-
-
 ### Rapid7 Agent
 
 Windows:
@@ -53,7 +51,6 @@ You can verify the installation by running the following command inside a comman
 ````cmd
 sc query ir_agent
 ````
-
 
 Linux:
 
