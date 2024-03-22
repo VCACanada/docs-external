@@ -29,7 +29,7 @@ After 15-20 seconds the Smartsheet is saved, our DHCP server is automatically up
 
 ## Notes
 
-## IMPORTANT NOTE ABOUT T530/T540 4GB RAM MODELS
+### T530/T540 4GB RAM Models
 
 If the thin client has 4GB of RAM, the following **MUST** also be performed in addition to the above steps or else the thin client **WILL NOT WORK**
 
