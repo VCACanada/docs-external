@@ -11,10 +11,10 @@
 
 #### Windows
 
-Download a copy of the installer [here](https://s3.ca-central-1.amazonaws.com/pub.vcacanada.com/security_software/crowdstrike/WindowsSensor_7.04.17605.exe). Once downloaded, run the following command:
+Download a copy of the installer [here](https://s3.ca-central-1.amazonaws.com/pub.vcacanada.com/security_software/crowdstrike/windows/latest/WindowsSensor.exe). Once downloaded, run the following command:
 
 ````powershell
-WindowsSensor_7.04.17605.exe /install /quiet /norestart CID=289A4403E72C41AFAC93DB969D041FD7-AD PROXYDISABLE=1 ProvNoWait=1
+WindowsSensor.exe /install /quiet /norestart CID=289A4403E72C41AFAC93DB969D041FD7-AD PROXYDISABLE=1 ProvNoWait=1
 ````
 
 You do not need to restart any machines for this to take effect.
@@ -26,7 +26,7 @@ Verify installation:
 
 #### Mac
 
-Download a copy of the installer [here](https://pub.vcacanada.com/security_software/crowdstrike/FalconSensorMacOS_6.23.13601.pkg). Once downloaded, double click on the `.pkg` installer.
+Download a copy of the installer [here](https://s3.ca-central-1.amazonaws.com/pub.vcacanada.com/security_software/crowdstrike/mac/latest/FalconSensorMacOS.pkg). Once downloaded, double click on the `.pkg` installer.
 
 ````zsh
 sudo /Applications/Falcon.app/Contents/Resources/falconctl grouping-tags set "VCA,VCA_Canada"
