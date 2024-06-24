@@ -1,4 +1,4 @@
-# VCA Canada Enable PXE for ThinStation on HP Elite Mini 66 G9
+# VCA Canada Enable PXE for ThinStation on HP Elite Mini 600 G9
 
 ## Objective
 
