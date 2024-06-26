@@ -6,15 +6,13 @@ These instructions will show you how to disable M.2 booting and enable PXE booti
 
 ## MAC Address Location
 
-The MAC address for the ELite Mini 600 is not printed on the physical device, but it is printed on the package label, located on the end of the box. Use the MAC address listed on that label in the next step.
+The MAC address for the Elite Mini 600 is not printed on the physical device, but it is printed on the package label, located on the end of the box. Use the MAC address listed on that label in the next step.
 
-Example with location of MAC address:
 ![Mac Address label](./images/mac_label.png)
 
 ## Print off Thin Client label
 
 Before you PXE enable the thin client, you need to print off the label for the thin client. We use 2" by 4" labels. You can use [this link](https://thinstation-inventory.vcacanada.com/) to access the label generator.
-
 
 ## PXE enable Thin Client
 
