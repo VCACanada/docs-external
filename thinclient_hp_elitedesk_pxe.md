@@ -21,13 +21,12 @@ After 15-20 seconds the Smartsheet is saved, our DHCP server is automatically up
 * Reboot thin client, and keep pressing F10 until you end up in the HP Setup Utility
 * Choose Advanced -> System Options
   * Set "M.2 SSD 1" and M.2 SSD 2" to unchecked
-  * Press F10 to save
 * Choose Security -> Secure Boot Configuration
   * Press F10 to continue
   * Set "Secure Boot" to unchecked
-  * Press F10 to save
+* Choose Security
+  * Uncheck "Intel Trusted Execution Technology"
 * Choose Advanced -> Boot Options
   * Ensure that the network controller is the only option in the boot order; move it to the top of the list if it is not already
-  * Press F10 to save
 * Choose File -> Save Changes and Exit (say yes you're sure when prompted)
 * Upon reboot, the device will prompt to confirm that the secure boot config change is expected, **confirm it by entering the code listed on the screen** and allow it to reboot
