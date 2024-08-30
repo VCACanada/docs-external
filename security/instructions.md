@@ -9,24 +9,34 @@
 
 ### Crowdstrike
 
-#### Windows
+#### Windows Method 1: Download/Install with powershell
 
-Download a copy of the installer [here](https://s3.ca-central-1.amazonaws.com/pub.vcacanada.com/security_software/crowdstrike/windows/latest/WindowsSensor.exe). Once downloaded, run the following command:
+Run the following powershell commands to download and install Crowdstrike:
+
+````powershell
+Invoke-WebRequest -uri "https://s3.ca-central-1.amazonaws.com/pub.vcacanada.com/security_software/crowdstrike/windows/latest-2/WindowsSensor.exe" -OutFile "$env:TEMP\WindowsSensor.exe"
+."$env:TEMP\WindowsSensor.exe" /install /quiet /norestart CID=289A4403E72C41AFAC93DB969D041FD7-AD PROXYDISABLE=1 ProvNoWait=1
+````
+
+#### Windows Method 2: Download manually and install with command prompt
+
+Download a copy of the installer [here](https://s3.ca-central-1.amazonaws.com/pub.vcacanada.com/security_software/crowdstrike/windows/latest-2/WindowsSensor.exe). Once downloaded, run the following `cmd` command from the directory you downloaded the installer into:
 
 ````powershell
 WindowsSensor.exe /install /quiet /norestart CID=289A4403E72C41AFAC93DB969D041FD7-AD PROXYDISABLE=1 ProvNoWait=1
 ````
 
-You do not need to restart any machines for this to take effect.
+#### Windows: Verify install
 
-Verify installation:
+No restart is necessary after installing, so to verify the install simply run the following command in a `cmd` or `powershell` prompt and verify that `STATE = "Running"`.  It may take a minute or two after running the install command before the service will show up.
 
-1. In a command prompt window run `sc.exe query csfalconservice`
-2. Verify `STATE = "Running"`
+````powershell
+sc.exe query csfalconservice
+````
 
 #### Mac
 
-Download a copy of the installer [here](https://s3.ca-central-1.amazonaws.com/pub.vcacanada.com/security_software/crowdstrike/mac/latest/FalconSensorMacOS.pkg). Once downloaded, double click on the `.pkg` installer.
+Download a copy of the installer [here](https://s3.ca-central-1.amazonaws.com/pub.vcacanada.com/security_software/crowdstrike/mac/latest-2/FalconSensorMacOS.pkg). Once downloaded, double click on the `.pkg` installer.
 
 ````zsh
 sudo /Applications/Falcon.app/Contents/Resources/falconctl grouping-tags set "VCA,VCA_Canada"
